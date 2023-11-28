@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2309BA532B15E30E001BF666 /* concurrency_in_ios_part1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2309BA522B15E30E001BF666 /* concurrency_in_ios_part1App.swift */; };
-		2309BA552B15E30E001BF666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2309BA542B15E30E001BF666 /* ContentView.swift */; };
-		2309BA572B15E30F001BF666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2309BA562B15E30F001BF666 /* Assets.xcassets */; };
-		2309BA5B2B15E30F001BF666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2309BA5A2B15E30F001BF666 /* Preview Assets.xcassets */; };
+		2309BA6E2B15E6BF001BF666 /* _2_first_async_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2309BA6D2B15E6BF001BF666 /* _2_first_async_appApp.swift */; };
+		2309BA702B15E6BF001BF666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2309BA6F2B15E6BF001BF666 /* ContentView.swift */; };
+		2309BA722B15E6C0001BF666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2309BA712B15E6C0001BF666 /* Assets.xcassets */; };
+		2309BA762B15E6C0001BF666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2309BA752B15E6C0001BF666 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2309BA4F2B15E30E001BF666 /* concurrency-in-ios-part1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "concurrency-in-ios-part1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2309BA522B15E30E001BF666 /* concurrency_in_ios_part1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concurrency_in_ios_part1App.swift; sourceTree = "<group>"; };
-		2309BA542B15E30E001BF666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2309BA562B15E30F001BF666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2309BA582B15E30F001BF666 /* concurrency_in_ios_part1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = concurrency_in_ios_part1.entitlements; sourceTree = "<group>"; };
-		2309BA5A2B15E30F001BF666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2309BA6A2B15E6BF001BF666 /* 02-first-async-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-first-async-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2309BA6D2B15E6BF001BF666 /* _2_first_async_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_first_async_appApp.swift; sourceTree = "<group>"; };
+		2309BA6F2B15E6BF001BF666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2309BA712B15E6C0001BF666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2309BA732B15E6C0001BF666 /* _2_first_async_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _2_first_async_app.entitlements; sourceTree = "<group>"; };
+		2309BA752B15E6C0001BF666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2309BA4C2B15E30E001BF666 /* Frameworks */ = {
+		2309BA672B15E6BF001BF666 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2309BA462B15E30E001BF666 = {
+		2309BA612B15E6BF001BF666 = {
 			isa = PBXGroup;
 			children = (
-				2309BA512B15E30E001BF666 /* concurrency-in-ios-part1 */,
-				2309BA502B15E30E001BF666 /* Products */,
+				2309BA6C2B15E6BF001BF666 /* 02-first-async-app */,
+				2309BA6B2B15E6BF001BF666 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2309BA502B15E30E001BF666 /* Products */ = {
+		2309BA6B2B15E6BF001BF666 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2309BA4F2B15E30E001BF666 /* concurrency-in-ios-part1.app */,
+				2309BA6A2B15E6BF001BF666 /* 02-first-async-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2309BA512B15E30E001BF666 /* concurrency-in-ios-part1 */ = {
+		2309BA6C2B15E6BF001BF666 /* 02-first-async-app */ = {
 			isa = PBXGroup;
 			children = (
-				2309BA522B15E30E001BF666 /* concurrency_in_ios_part1App.swift */,
-				2309BA542B15E30E001BF666 /* ContentView.swift */,
-				2309BA562B15E30F001BF666 /* Assets.xcassets */,
-				2309BA582B15E30F001BF666 /* concurrency_in_ios_part1.entitlements */,
-				2309BA592B15E30F001BF666 /* Preview Content */,
+				2309BA6D2B15E6BF001BF666 /* _2_first_async_appApp.swift */,
+				2309BA6F2B15E6BF001BF666 /* ContentView.swift */,
+				2309BA712B15E6C0001BF666 /* Assets.xcassets */,
+				2309BA732B15E6C0001BF666 /* _2_first_async_app.entitlements */,
+				2309BA742B15E6C0001BF666 /* Preview Content */,
 			);
-			path = "concurrency-in-ios-part1";
+			path = "02-first-async-app";
 			sourceTree = "<group>";
 		};
-		2309BA592B15E30F001BF666 /* Preview Content */ = {
+		2309BA742B15E6C0001BF666 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2309BA5A2B15E30F001BF666 /* Preview Assets.xcassets */,
+				2309BA752B15E6C0001BF666 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,39 +72,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2309BA4E2B15E30E001BF666 /* concurrency-in-ios-part1 */ = {
+		2309BA692B15E6BF001BF666 /* 02-first-async-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2309BA5E2B15E30F001BF666 /* Build configuration list for PBXNativeTarget "concurrency-in-ios-part1" */;
+			buildConfigurationList = 2309BA792B15E6C0001BF666 /* Build configuration list for PBXNativeTarget "02-first-async-app" */;
 			buildPhases = (
-				2309BA4B2B15E30E001BF666 /* Sources */,
-				2309BA4C2B15E30E001BF666 /* Frameworks */,
-				2309BA4D2B15E30E001BF666 /* Resources */,
+				2309BA662B15E6BF001BF666 /* Sources */,
+				2309BA672B15E6BF001BF666 /* Frameworks */,
+				2309BA682B15E6BF001BF666 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "concurrency-in-ios-part1";
-			productName = "concurrency-in-ios-part1";
-			productReference = 2309BA4F2B15E30E001BF666 /* concurrency-in-ios-part1.app */;
+			name = "02-first-async-app";
+			productName = "02-first-async-app";
+			productReference = 2309BA6A2B15E6BF001BF666 /* 02-first-async-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2309BA472B15E30E001BF666 /* Project object */ = {
+		2309BA622B15E6BF001BF666 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					2309BA4E2B15E30E001BF666 = {
+					2309BA692B15E6BF001BF666 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 2309BA4A2B15E30E001BF666 /* Build configuration list for PBXProject "concurrency-in-ios-part1" */;
+			buildConfigurationList = 2309BA652B15E6BF001BF666 /* Build configuration list for PBXProject "02-first-async-app" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 2309BA462B15E30E001BF666;
-			productRefGroup = 2309BA502B15E30E001BF666 /* Products */;
+			mainGroup = 2309BA612B15E6BF001BF666;
+			productRefGroup = 2309BA6B2B15E6BF001BF666 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2309BA4E2B15E30E001BF666 /* concurrency-in-ios-part1 */,
+				2309BA692B15E6BF001BF666 /* 02-first-async-app */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2309BA4D2B15E30E001BF666 /* Resources */ = {
+		2309BA682B15E6BF001BF666 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2309BA5B2B15E30F001BF666 /* Preview Assets.xcassets in Resources */,
-				2309BA572B15E30F001BF666 /* Assets.xcassets in Resources */,
+				2309BA762B15E6C0001BF666 /* Preview Assets.xcassets in Resources */,
+				2309BA722B15E6C0001BF666 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2309BA4B2B15E30E001BF666 /* Sources */ = {
+		2309BA662B15E6BF001BF666 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2309BA552B15E30E001BF666 /* ContentView.swift in Sources */,
-				2309BA532B15E30E001BF666 /* concurrency_in_ios_part1App.swift in Sources */,
+				2309BA702B15E6BF001BF666 /* ContentView.swift in Sources */,
+				2309BA6E2B15E6BF001BF666 /* _2_first_async_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2309BA5C2B15E30F001BF666 /* Debug */ = {
+		2309BA772B15E6C0001BF666 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		2309BA5D2B15E30F001BF666 /* Release */ = {
+		2309BA782B15E6C0001BF666 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,15 +261,15 @@
 			};
 			name = Release;
 		};
-		2309BA5F2B15E30F001BF666 /* Debug */ = {
+		2309BA7A2B15E6C0001BF666 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "concurrency-in-ios-part1/concurrency_in_ios_part1.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "02-first-async-app/_2_first_async_app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"concurrency-in-ios-part1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"02-first-async-app/Preview Content\"";
 				DEVELOPMENT_TEAM = 94JZQA58T9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -289,7 +289,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.concurrency-in-ios-part1";
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.-2-first-async-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -299,15 +299,15 @@
 			};
 			name = Debug;
 		};
-		2309BA602B15E30F001BF666 /* Release */ = {
+		2309BA7B2B15E6C0001BF666 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "concurrency-in-ios-part1/concurrency_in_ios_part1.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "02-first-async-app/_2_first_async_app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"concurrency-in-ios-part1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"02-first-async-app/Preview Content\"";
 				DEVELOPMENT_TEAM = 94JZQA58T9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -327,7 +327,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.concurrency-in-ios-part1";
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.-2-first-async-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -340,25 +340,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2309BA4A2B15E30E001BF666 /* Build configuration list for PBXProject "concurrency-in-ios-part1" */ = {
+		2309BA652B15E6BF001BF666 /* Build configuration list for PBXProject "02-first-async-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2309BA5C2B15E30F001BF666 /* Debug */,
-				2309BA5D2B15E30F001BF666 /* Release */,
+				2309BA772B15E6C0001BF666 /* Debug */,
+				2309BA782B15E6C0001BF666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2309BA5E2B15E30F001BF666 /* Build configuration list for PBXNativeTarget "concurrency-in-ios-part1" */ = {
+		2309BA792B15E6C0001BF666 /* Build configuration list for PBXNativeTarget "02-first-async-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2309BA5F2B15E30F001BF666 /* Debug */,
-				2309BA602B15E30F001BF666 /* Release */,
+				2309BA7A2B15E6C0001BF666 /* Debug */,
+				2309BA7B2B15E6C0001BF666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2309BA472B15E30E001BF666 /* Project object */;
+	rootObject = 2309BA622B15E6BF001BF666 /* Project object */;
 }

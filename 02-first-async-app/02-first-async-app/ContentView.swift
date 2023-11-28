@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  concurrency-in-ios-part1
+//  02-first-async-app
 //
 //  Created by João Barreto do Nascimento on 28.11.2023.
 //
